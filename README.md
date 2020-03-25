@@ -1,10 +1,12 @@
 # Coronavirus-live-updates-android
 An android app for tracking coronavirus(COVID19) live updates
+<br /> 
 一个用于获取实时新冠肺炎的安卓App
 
 ![avatar](https://github.com/narakai/Coronavirus-live-updates-android/blob/master/app/3.jpeg)
 
 Data is from https://github.com/CSSEGISandData/COVID-19
+<br />
 数据来自：https://github.com/CSSEGISandData/COVID-19
 
 
