@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#000A12</color>
+    <color name="colorPrimaryLight">#4F5B62</color>
+    <color name="colorAccent">#C0202E</color>
+    <color name="colorAccentLight">#F05545</color>
+    <color name="colorAccentDark">#7F0000</color>
+
+    <color name="rippelColorBlue">#25ABFF</color>
+    <color name="rippelColorOrange">#FF5E8C</color>
+    <color name="rippelColorGray">#C4D2E2</color>
+    <color name="rippelColor">#C4D2E2</color>
+
+    <color name="light_yellow">#FFF8F4</color>
+    <color name="night">#571E22</color>
+    <color name="night_active">#95725F</color>
+    <color name="night_inactive">#663A3C</color>
+
+    <!-- alpha colors -->
+    <color name="deep_alpha_blue">#C00096FF</color>
+    <color name="deep_alpha_black">#B3000000</color>
+    <color name="alpha_black">#80000000</color>
+    <color name="deep_alpha_white">#D5FFFFFF</color>
+    <color name="alpha_white">#80FFFFFF</color>
+    <color name="deep_alpha_light_gray">#C0DBDBDB</color>
+    <color name="deep_alpha_light_black">#46000000</color>
+    <color name="light_alpha_light_gray">#40DBDBDB</color>
+    <color name="light_alpha_white">#1AFFFFFF</color>
+    <color name="light_alpha_black">#40000000</color>
+    <color name="lighter_alpha_black">#28000000</color>
+    <color name="deep_alpha_pink">#D5F53E76</color>
+
+    <color name="light_alpha_blue">#6600B4FF</color>
+    <color name="light_alpha_orange">#66FFA000</color>
+    <color name="light_alpha_green">#6678C800</color>
+    <color name="green">#78C800</color>
+    <!-- basic colors -->
+
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="dst_text">#965A00</color>
+
+    <color name="red">#ff4646</color>
+    <color name="black">#000000</color>
+    <color name="text_dark_gray">#AAAAAA</color>
+    <color name="white_gray">#646464</color>
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="line_gray">#E6E6E6</color>
+    <color name="orange">#FFA000</color>
+    <color name="dark_orange">#FF7800</color>
+    <color name="deep_dark_orange">#965A00</color>
+
+    <color name="dark_blue">#0078AA</color>
+    <color name="deep_sky_blue">#00B4FF</color>
+    <color name="blue">#0096FF</color>
+    <color name="light_gray">#F2F2F2</color>
+    <color name="lighter_gray">#3FCCCCCC</color>
+    <color name="background_gray">#3FCCCCCC</color>
+
+    <color name="gray">#C8C8C8</color>
+    <color name="dark_gray">#555555</color>
+    <color name="border_gray">#dcdcdc</color>
+    <color name="pink">#F53E76</color>
+
+
+    <color name="holo_blue_light">#3333b5e5</color>
+    <color name="holo_green_light">#3399cc00</color>
+    <color name="holo_red_light">#33ff4444</color>
+    <color name="holo_orange_light">#33ffbb33</color>
+    <color name="holo_purple_light">#33aa66cc</color>
+
+
+    <color name="gray_light">#DBDBDB</color>
+
+    <color name="gray_dark">#4D4D4D</color>
+
+    <!--special color -->
+    <color name="_808080">#808080</color>
+
+    <color name="calendar_gray">#888888</color>
+
+
+    <!--<color name="red">#FF432F</color>  -->
+
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_selected">#0090cc</color>
+    <color name="orange_selected">#cb8000</color>
+
+    <!-- Background color for light LeBubbleView. -->
+    <color name="bubbleView_light_background">#CCFFFFFF</color>
+    <!-- Background color for dark LeBubbleView. -->
+    <color name="bubbleView_dark_background">#CC000000</color>
+    <!-- text color for light LeBubbleTextView. -->
+    <color name="bubbleView_light_text_color">#CC323C49</color>
+    <!-- text color for dark LeBubbleTextView. -->
+    <color name="bubbleView_dark_text_color">#CCFFFFFF</color>
+    <!-- press Background color for light LeBubbleView. -->
+    <color name="bubbleView_light_press_background">#E6FFFFFF</color>
+    <!-- press Background color for dark LeBubbleView. -->
+    <color name="bubbleView_dark_press_background">#E6000000</color>
+
+
+    <color name="hotel_use_now">#6437b4</color>
+    <color name="full_service_use_now">#508700</color>
+    <color name="flight_use_now">#0078aa</color>
+
+    <color name="dDVTransparentGray">#99000000</color>
+    <color name="dDVColorPrimary">@color/colorPrimary</color>
+
+    <color name="whiteTransparent">#88FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="divider">#EDEFF2</color>
+    <color name="back">#80FAF8F3</color>
+    <color name="back2">#FAF8F3</color>
+    <color name="back3">#FAF8F3</color>
+    <color name="back4">#B49480</color>
+    <color name="bible">#B89981</color>
+    <color name="bible_alpha">#CCB89981</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="background">#FFFFFF</color>
+    <color name="textcolor">#787677</color>
+    <color name="back_color">#BF7D71</color>
+    <color name="text_gray">#969696</color>
+    <color name="text_black">#3C3C3C</color>
+    <color name="bible_back">#FDFBF8</color>
+
+    <color name="text_black0">#B49480</color>
+    <color name="text_black1">#3C3C3C</color>
+
+    <color name="back30">#571E22</color>
+    <color name="backred">#F44451</color>
+    <color name="back31">#FAF8F3</color>
+
+</resources>

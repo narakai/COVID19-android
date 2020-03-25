@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jonathanfinerty.once:once:1.2.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fdca2753000e9e560572d97768457a12/jetified-once-1.2.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fdca2753000e9e560572d97768457a12/jetified-once-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fdca2753000e9e560572d97768457a12/jetified-once-1.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jonathanfinerty.once/once/1.2.2/6bc023c61a9fde61cac98048f9715b287895b06a/once-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jonathanfinerty.once/once/1.2.2/ed9efae0f75212e65308b6f803ed6a31c6b7ffe/once-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

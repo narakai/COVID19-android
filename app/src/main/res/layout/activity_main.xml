@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/text_black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/refresh_iv"
+                    android:padding="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:minWidth="50dp"
+                    android:id="@+id/area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/back3"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/area_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:text="US"
+                        android:textColor="@color/text_black"
+                        android:textSize="16sp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:minWidth="50dp"
+                    android:id="@+id/area2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="@color/back3"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/area_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:padding="5dp"
+                        android:text="New York"
+                        android:textColor="@color/text_black"
+                        android:textSize="16sp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:paddingTop="10dp"
+                    android:id="@+id/confirm_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="bottom|right"
+                    tools:text="12"
+                    android:textSize="11sp"
+                    android:textColor="@color/blue_selected"
+                    android:id="@+id/progressTv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:paddingTop="10dp"
+                    android:id="@+id/death_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="bottom|right"
+                    tools:text="12"
+                    android:textSize="11sp"
+                    android:textColor="@color/blue_selected"
+                    android:id="@+id/progressTv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:paddingTop="10dp"
+                    android:id="@+id/recover_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="bottom|right"
+                    tools:text="12"
+                    android:textSize="11sp"
+                    android:textColor="@color/blue_selected"
+                    android:id="@+id/progressTv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+</androidx.core.widget.NestedScrollView>

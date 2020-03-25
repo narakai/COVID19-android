@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextColor2" format="color"/>
+        <attr name="titleTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PriceView">
+        <attr name="mTitleText" format="string"/>
+        <attr name="mBackground" format="color"/>
+        <attr name="mTitleTextSize" format="dimension"/>
+        <attr name="mTitleTextColor" format="color"/>
+        <attr name="mCornerSize" format="integer"/>
+        <attr name="mUp" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundIndicatorView">
+        <!--最大数值-->
+        <attr name="maxNum" format="integer"/>
+        <!--圆盘起始角度-->
+        <attr name="startAngle" format="integer"/>
+        <!--圆盘扫过的角度-->
+        <attr name="sweepAngle" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CornerView">
+        <attr name="radius" format="dimension"/>
+        <attr name="top_left_radius" format="dimension"/>
+        <attr name="top_right_radius" format="dimension"/>
+        <attr name="bottom_right_radius" format="dimension"/>
+        <attr name="bottom_left_radius" format="dimension"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="border" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="Wave">
+        <attr name="color" format="color"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DropDownView">
+        <attr name="containerBackgroundColor" format="color"/>
+        <attr name="overlayColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="EasyPullLayout">
+        <attr name="trigger_offset_left" format="dimension"/>
+        <attr name="trigger_offset_top" format="dimension"/>
+        <attr name="trigger_offset_right" format="dimension"/>
+        <attr name="trigger_offset_bottom" format="dimension"/>
+        <attr name="max_offset_left" format="dimension"/>
+        <attr name="max_offset_top" format="dimension"/>
+        <attr name="max_offset_right" format="dimension"/>
+        <attr name="max_offset_bottom" format="dimension"/>
+        <attr name="fixed_content_left" format="boolean"/>
+        <attr name="fixed_content_top" format="boolean"/>
+        <attr name="fixed_content_right" format="boolean"/>
+        <attr name="fixed_content_bottom" format="boolean"/>
+        <attr name="roll_back_duration" format="integer"/>
+        <attr name="sticky_factor" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="EasyPullLayout_LayoutParams">
+        <attr name="layout_type" format="enum">
+            <enum name="edge_left" value="0"/>
+            <enum name="edge_top" value="1"/>
+            <enum name="edge_right" value="2"/>
+            <enum name="edge_bottom" value="3"/>
+            <enum name="content" value="4"/>
+        </attr>
+        <attr name="layout_content_fixed" format="boolean"/>
+    </declare-styleable>
+
+    <!--注意这里的name要和自定义View的名称一致，不然在布局文件中无法引用-->
+    <declare-styleable name="CircleBarView">
+        <attr name="progress_color" format="color"></attr>
+        <attr name="bg_color" format="color"></attr>
+
+        <attr name="bar_width" format="dimension"></attr>
+
+        <attr name="start_angle" format="float"></attr>
+        <attr name="sweep_angle" format="float"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MyCircleProgressBar">
+        <attr name="cpb_strokeWidth" format="dimension" />
+        <attr name="cpb_startColor" format="color"/>
+        <attr name="cpb_endColor" format="color"/>
+        <attr name="cpb_duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyTextView">
+        <attr name="myTextStyle" format="string"></attr>
+    </declare-styleable>
+</resources>
+
+    <!--定义了字体，字体颜色，字体大小3个属性，format是值该属性的取值类型:-->
+    <!--一共有：string,color,demension,integer,enum,reference,float,boolean,fraction,flag-->

@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/hellocharts-library/build/
+/hellocharts-library/build/intermediates/javac/debug/classes/
